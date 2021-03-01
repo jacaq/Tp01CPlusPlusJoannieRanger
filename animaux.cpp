@@ -20,11 +20,6 @@
             return this->poids;
         }
 
-        // Destructeur à implémenté ici:
-        Animaux:: ~Animaux(){
-        cout<<"Animaux <"<<this->nom <<">: detruit"<<endl;   
-        }
-        
         float Animaux::getDieteViande(){
             return this->dieteViande->getDiete();
            

@@ -32,8 +32,7 @@ class Animaux {  //classe style abstraite de java
             virtual float getDieteHerbe();
             
             // Destructeur non-implémenté ici,
-            virtual ~Animaux();//Affiche que l'animaux a été détruit.
-
+            virtual ~Animaux() {std::cout<<"Animal <"<<this->nom<<"> detruit"<<std::endl;}
 
             // Cette fonction permet d'afficher
             virtual void afficherAnimaux();
